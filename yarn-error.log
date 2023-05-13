@@ -1,0 +1,49 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\studio-pc\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  C:\Users\studio-pc\AppData\Roaming\npm;C:\Users\studio-pc\Documents\development\ClipSync\node_modules\.bin;C:\Users\studio-pc\Documents\development\node_modules\.bin;C:\Users\studio-pc\Documents\node_modules\.bin;C:\Users\studio-pc\node_modules\.bin;C:\Users\node_modules\.bin;C:\node_modules\.bin;C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\run-script\lib\node-gyp-bin;C:\Program Files\PowerShell\7;C:\Program Files\Lapce\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\GitHub CLI\;C:\Program Files\Go\bin;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\ngrok-v3-stable-windows-amd64;C:\kotlinc\bin;C:\flutter\flutter\bin;C:\Android\cmdline-tools\tools\bin;C:\Program Files\PowerShell\7\;C:\Users\studio-pc\AppData\Local\pnpm;C:\Users\studio-pc\AppData\Local\pnpm;C:\Users\studio-pc\AppData\Local\Microsoft\WindowsApps;C:\Users\studio-pc\AppData\Local\Programs\Microsoft VS Code Insiders\bin;C:\Users\studio-pc\AppData\Roaming\npm;C:\Users\studio-pc\go\bin;C:\tools\dart-sdk\bin;C:\Users\studio-pc\AppData\Roaming\Pub\Cache\bin;C:\Users\studio-pc\AppData\Local\Programs\Hyper\resources\bin;C:\Users\studio-pc\AppData\Local\Programs\oh-my-posh\bin;C:\tools\neovim\nvim-win64\bin;C:\Users\studio-pc\AppData\Local\JetBrains\Toolbox\scripts;C:\Users\studio-pc\AppData\Local\Programs\Neovim\bin;C:\Users\studio-pc\.deno\bin;C:\zig-windows-aarch64-0.11.0-dev.3045+526065723
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.14.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: connect ETIMEDOUT 104.16.16.35:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16)
+
+npm manifest: 
+  {
+    "name": "clipsync",
+    "version": "1.0.0",
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web"
+    },
+    "dependencies": {
+      "expo": "~48.0.15",
+      "expo-status-bar": "~1.4.4",
+      "react": "18.2.0",
+      "react-native": "0.71.7"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.20.0",
+      "@types/react": "~18.0.14",
+      "typescript": "^4.9.4"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
